@@ -4,7 +4,7 @@ import { MdPreview } from "react-icons/md";
 
 const HomepageSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center text-center ">
+    <div className="max-sm:w-11/12 max-sm:mx-auto flex flex-col items-center justify-center text-center ">
       <div className="py-10">
         <div className="badge badge-soft badge-accent mb-5 text-[16px] text-sky-500">
           <div className="inline-grid *:[grid-area:1/1]">
@@ -13,22 +13,22 @@ const HomepageSection = () => {
           </div>
           AuraSync 2.0 Is Live Now
         </div>
-        <p className="max-sm:text-2xl text-7xl font-bold mb-5">
+        <p className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-bold mb-5">
           Next-Gen Cloud Automation <br></br>AND <br></br>
           <span className="text-sky-800">AI-Driven Observability Platform</span>
         </p>
-        <p className=" max-sm:text-sm text-lg font-semibold text-gray-600 mb-5 max-sm:w-11/12 max-sm:text-center w-3/5 mx-auto">
+        <p className=" text-sm sm:text-[16px] md:text-lg font-semibold text-gray-600 mb-5 w-11/12  lg:w-3/5 max-sm:text-center  mx-auto">
           AuraSync 2.0 is a cutting-edge cloud automation and observability
           platform that leverages the power of artificial intelligence to
           streamline and optimize your cloud infrastructure. Experience the
           future of cloud management with AuraSync 2.0.
         </p>
-        <div className="flex items-center gap-2 justify-center">
-          <button className="btn btn-primary">
+        <div className="max-sm:w-11/12 max-sm:mx-auto flex max-sm:flex-col items-center gap-2 justify-center">
+          <button className="max-sm:w-full btn btn-primary">
             <FaLocationArrow />
             Get Started For Free
           </button>
-          <button className="btn btn-soft text-blue-900">
+          <button className="max-sm:w-full btn btn-soft text-blue-900">
             <MdPreview size={20} />
             Preview Live Demo
           </button>

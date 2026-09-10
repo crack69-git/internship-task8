@@ -12,7 +12,7 @@ const MarqueeSection = () => {
           alt="AWS"
           width={250}
           height={80}
-          className="rounded-lg max-sm:max-w-25"
+          className="rounded-lg max-sm:max-w-25 "
         ></Image>
       </div>
       <div className="ml-5">
@@ -63,7 +63,7 @@ const MarqueeSection = () => {
     </>
   );
   return (
-    <div className="flex items-center justify-center flex-col max-sm:w-11/12 w-3/5 mx-auto my-10 gap-2 ">
+    <div className="flex items-center justify-center flex-col w-11/12 lg:w-3/5 mx-auto my-10 gap-2 ">
       <p className="text-lg  font-bold flex items-center max-sm:text-[16px] gap-2">
         <PiShieldCheckFill size={30} color="green" />
         Trusted by forward-thinking engineering teams at
