@@ -12,7 +12,7 @@ const MarqueeSection = () => {
           alt="AWS"
           width={250}
           height={80}
-          className="rounded-lg"
+          className="rounded-lg max-sm:max-w-25"
         ></Image>
       </div>
       <div className="ml-5">
@@ -21,7 +21,7 @@ const MarqueeSection = () => {
           alt="Daraz"
           width={250}
           height={80}
-          className="rounded-lg"
+          className="rounded-lg max-sm:max-w-25"
         ></Image>
       </div>
       <div className="ml-5">
@@ -30,7 +30,7 @@ const MarqueeSection = () => {
           alt="Rokomari"
           width={250}
           height={80}
-          className="rounded-lg"
+          className="rounded-lg max-sm:max-w-25"
         ></Image>
       </div>
       <div className="ml-5">
@@ -39,7 +39,7 @@ const MarqueeSection = () => {
           alt="Chaldal"
           width={250}
           height={80}
-          className="rounded-lg"
+          className="rounded-lg max-sm:max-w-25"
         ></Image>
       </div>
       <div className="ml-5">
@@ -48,7 +48,7 @@ const MarqueeSection = () => {
           alt="brac"
           width={250}
           height={80}
-          className="rounded-lg"
+          className="rounded-lg max-sm:max-w-25"
         ></Image>
       </div>
       <div className="ml-5">
@@ -57,19 +57,19 @@ const MarqueeSection = () => {
           alt="cm"
           width={250}
           height={80}
-          className="rounded-lg"
+          className="rounded-lg max-sm:max-w-25"
         ></Image>
       </div>
     </>
   );
   return (
-    <div className="flex items-center justify-center flex-col w-3/5 mx-auto my-10 gap-2 mask-l-from-90% mask-r-from-90%">
-      <p className="text-lg  font-bold flex items-center gap-2">
+    <div className="flex items-center justify-center flex-col max-sm:w-11/12 w-3/5 mx-auto my-10 gap-2 ">
+      <p className="text-lg  font-bold flex items-center max-sm:text-[16px] gap-2">
         <PiShieldCheckFill size={30} color="green" />
         Trusted by forward-thinking engineering teams at
       </p>
       <Marquee
-        className=" text-lg font-bold text-gray-600 border border-dashed border-gray-300 py-4"
+        className=" text-lg font-bold text-gray-600 border border-dashed border-gray-300 py-4 mask-l-from-90% mask-r-from-90%"
         direction="left"
       >
         {companies}

@@ -13,11 +13,11 @@ const HomepageSection = () => {
           </div>
           AuraSync 2.0 Is Live Now
         </div>
-        <p className="text-7xl font-bold mb-5">
+        <p className="max-sm:text-2xl text-7xl font-bold mb-5">
           Next-Gen Cloud Automation <br></br>AND <br></br>
           <span className="text-sky-800">AI-Driven Observability Platform</span>
         </p>
-        <p className="text-lg font-semibold text-gray-600 mb-5 w-3/5 mx-auto">
+        <p className=" max-sm:text-sm text-lg font-semibold text-gray-600 mb-5 max-sm:w-11/12 max-sm:text-center w-3/5 mx-auto">
           AuraSync 2.0 is a cutting-edge cloud automation and observability
           platform that leverages the power of artificial intelligence to
           streamline and optimize your cloud infrastructure. Experience the
@@ -33,11 +33,11 @@ const HomepageSection = () => {
             Preview Live Demo
           </button>
         </div>
-        <div className="flex items-center gap-2 justify-center mt-5">
+        <div className="flex max-sm:flex-col items-center gap-2 justify-center mt-5">
           <div className="flex items-center gap-2">
             <div className="avatar-group -space-x-6">
               <div className="avatar">
-                <div className="w-12">
+                <div className="w-9">
                   <img
                     alt="Tailwind-CSS-Avatar-component"
                     src="https://img.daisyui.com/images/profile/demo/batperson@192.webp"
@@ -45,7 +45,7 @@ const HomepageSection = () => {
                 </div>
               </div>
               <div className="avatar">
-                <div className="w-12">
+                <div className="w-9">
                   <img
                     alt="Tailwind-CSS-Avatar-component"
                     src="https://img.daisyui.com/images/profile/demo/spiderperson@192.webp"
@@ -53,7 +53,7 @@ const HomepageSection = () => {
                 </div>
               </div>
               <div className="avatar">
-                <div className="w-12">
+                <div className="w-9">
                   <img
                     alt="Tailwind-CSS-Avatar-component"
                     src="https://img.daisyui.com/images/profile/demo/averagebulk@192.webp"
@@ -61,14 +61,16 @@ const HomepageSection = () => {
                 </div>
               </div>
               <div className="avatar avatar-placeholder">
-                <div className="bg-neutral text-neutral-content w-12">
+                <div className="bg-neutral text-neutral-content w-9">
                   <span>+99</span>
                 </div>
               </div>
             </div>
-            <p className="text-lg font-bold text-gray-600">1,000+ Users</p>
+            <p className="max-sm:text-[16px] text-lg font-bold text-gray-600">
+              1,000+ Users
+            </p>
           </div>
-          <p className="bg-gray-300 h-10 w-0.5"></p>
+          <p className="bg-gray-300 h-10 w-0.5 max-sm:hidden"></p>
           <div className="flex items-center gap-2">
             <div className="rating">
               <input
@@ -110,7 +112,7 @@ const HomepageSection = () => {
                 disabled
               />
             </div>
-            <p className="text-lg font-bold text-gray-600">
+            <p className="text-lg max-sm:text-[16px] font-bold text-gray-600">
               4/5 Average Rating
             </p>
           </div>

@@ -22,8 +22,8 @@ const NavBar = () => {
   );
   return (
     <div>
-      <div className="navbar bg-base-100 shadow-sm ">
-        <div className="navbar-start">
+      <div className="navbar max-sm:flex-col max-sm:justify-center items-center bg-base-100 shadow-sm ">
+        <div className="navbar-start max-sm:flex max-sm:justify-center">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -60,7 +60,7 @@ const NavBar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
-        <div className="navbar-end flex items-center gap-2">
+        <div className="navbar-end flex items-center max-sm:justify-center gap-2">
           <a className="btn bg-blue-800 text-white">Get Started</a>
           <a className="btn ">Login</a>
         </div>

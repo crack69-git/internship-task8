@@ -16,7 +16,7 @@ const CTASection = () => {
           </div>
 
           {/* Heading */}
-          <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight leading-tight max-w-3xl mx-auto mb-4">
+          <h2 className="max-sm:text-xl text-3xl md:text-5xl font-bold text-white tracking-tight leading-tight max-w-3xl mx-auto mb-4">
             Build Your Modern Autonomous <br className="hidden sm:inline" />
             AI Cloud Workflows Today
           </h2>

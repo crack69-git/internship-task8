@@ -38,7 +38,7 @@ const ReviewSection = () => {
               </span>
             </div>
 
-            <h1 className="text-3xl font-bold tracking-[-0.03em] text-[#e5ebf5] md:text-[34px]">
+            <h1 className="max-sm:text-xl text-3xl font-bold tracking-[-0.03em] text-[#e5ebf5] md:text-[34px]">
               Trusted by Developers &amp; CTOs Worldwide
             </h1>
 

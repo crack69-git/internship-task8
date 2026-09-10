@@ -10,7 +10,7 @@ const WhySection = () => {
   return (
     <div className="w-11/12 mx-auto">
       <div className="card card-border bg-slate-800 text-white w-full">
-        <div className="grid grid-cols-2 gap-8 p-10">
+        <div className="grid max-sm:grid-cols-1 grid-cols-2 gap-8 p-10">
           <div>
             <span className="badge bg-slate-900 text-purple-100 border-none">
               Why AuraSync?
@@ -24,7 +24,7 @@ const WhySection = () => {
               jobs. AuraSync’s autonomous neural orchestration engine
               dynamically calculates optimal byte transfer paths in real time.
             </p>
-            <div className="mt-5 grid grid-cols-3 gap-2 text-gray-300">
+            <div className="mt-5 grid max-sm:grid-cols-1 grid-cols-3 gap-2 text-gray-300">
               <p className="bg-slate-900 py-2 px-5 rounded-lg w-full">
                 <span className="text-2xl font-bold text-sky-200 flex items-center gap-2">
                   <LiaShippingFastSolid />
@@ -48,7 +48,7 @@ const WhySection = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid max-sm:grid-cols-1 grid-cols-2 gap-4">
             <div>
               <div className="card card-border bg-slate-900 border-none w-full h-full">
                 <div className="card-body">

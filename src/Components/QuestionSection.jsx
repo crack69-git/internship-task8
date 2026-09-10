@@ -31,17 +31,19 @@ const QuestionSection = () => {
   ];
 
   return (
-    <div className="my-20 w-3/5 mx-auto flex flex-col justify-center items-center">
+    <div className="my-20 max-sm:w-11/12  w-3/5 mx-auto flex flex-col justify-center items-center">
       <div className="badge badge-soft badge-info">
         Frequently Asked Questions
       </div>
-      <p className="text-3xl  font-bold mt-5">
-        Everything You Need to Know About AuraSync
-      </p>
-      <p className="text-lg  font-semibold text-gray-600 text-center mt-2">
-        Quick answers to common questions about architecture, compliance, and
-        deployment.
-      </p>
+      <div className="max-sm:text-center">
+        <p className="max-sm:text-xl max-sm:font-extrabold text-3xl  font-bold mt-5">
+          Everything You Need to Know About AuraSync
+        </p>
+        <p className="max-sm:text-sm text-lg  font-semibold text-gray-600 text-center mt-2">
+          Quick answers to common questions about architecture, compliance, and
+          deployment.
+        </p>
+      </div>
       <div className="mt-10 w-full flex flex-col gap-3">
         {faqs.map((faq, index) => (
           <div
@@ -49,7 +51,7 @@ const QuestionSection = () => {
             tabIndex={0}
             className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
           >
-            <div className="collapse-title text-lg font-medium">
+            <div className="max-sm:text-[16px] collapse-title text-lg font-medium">
               {faq.question}
             </div>
             <div className="collapse-content">

@@ -13,14 +13,15 @@ const Compatabilities = () => {
         <RiGeminiFill />
         Core Capabilities
       </div>
-      <p className="text-3xl mt-5 font-bold text-gray-600 text-center">
-        Autonomous Cloud Workflows Powered by<br></br> Innovative AI Engines
+      <p className="max-sm:text-xl text-3xl mt-5 font-bold text-gray-600 text-center">
+        Autonomous Cloud Workflows Powered by<br className="max-sm:hidden"></br>{" "}
+        Innovative AI Engines
       </p>
-      <p className="text-lg  font-semibold text-gray-600  text-center">
+      <p className="max-sm:my-5 max-sm:text-sm text-lg  font-semibold text-gray-600  text-center">
         Eliminate manual DevOps overhead. Let intelligent agents orchestrate
         your infrastructure across multi-cloud environments.
       </p>
-      <div className="grid grid-cols-3 gap-4 mt-5">
+      <div className="grid max-sm:grid-cols-1 grid-cols-3 gap-4 mt-5">
         <div className="card card-border bg-base-100 w-full shadow-lg">
           <div className="card-body">
             <SiMusicbrainz color="blue" size={30} />

@@ -7,14 +7,14 @@ const PriceToogelSection = () => {
     <div className="mt-10">
       <div className="flex items-center justify-center gap-2">
         <button
-          className="btn btn-primary"
+          className="btn btn-soft btn-primary"
           name="monthly"
           onClick={(e) => setSelectedPlan(e.target.name)}
         >
           Monthly
         </button>
         <button
-          className="btn btn-primary"
+          className="btn btn-soft btn-primary"
           name="yearly"
           onClick={(e) => setSelectedPlan(e.target.name)}
         >
@@ -389,7 +389,7 @@ const PriceToogelSection = () => {
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-3 gap-4 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
           <div className="card w-full bg-base-100 shadow-sm">
             <div className="card-body">
               <span className="flex-grow h-full"></span>
