@@ -22,7 +22,7 @@ const NavBar = () => {
   );
   return (
     <div>
-      <div className="navbar max-sm:flex-col max-sm:justify-center items-center bg-base-100 shadow-sm ">
+      <div className="animate__animated animate__fadeInDown animate__delay-0.8s navbar max-sm:flex-col max-sm:justify-center items-center bg-base-100 shadow-sm ">
         <div className="navbar-start max-sm:flex max-sm:justify-center">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

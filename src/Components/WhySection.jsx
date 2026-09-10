@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect, useRef, useState } from "react";
 import { FaMagic, FaRobot } from "react-icons/fa";
 import { FcMoneyTransfer } from "react-icons/fc";
 import { GiTimeBomb } from "react-icons/gi";
@@ -7,8 +8,25 @@ import { LiaShippingFastSolid } from "react-icons/lia";
 import { TbAiAgent } from "react-icons/tb";
 
 const WhySection = () => {
+  const sectionRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      { threshold: 0.9 }, // triggers when 90% is visible
+    );
+
+    if (sectionRef.current) observer.observe(sectionRef.current);
+    return () => observer.disconnect();
+  }, []);
   return (
-    <div className="w-11/12 mx-auto">
+    <div
+      ref={sectionRef}
+      className={`animate__animated ${isVisible ? "animate__zoomIn" : ""} animate__delay-1s w-11/12 mx-auto`}
+    >
       <div className="card card-border bg-slate-800 text-white w-full">
         <div className="grid max-sm:grid-cols-1 grid-cols-2 gap-8 p-10">
           <div>

@@ -4,7 +4,7 @@ import { MdPreview } from "react-icons/md";
 
 const HomepageSection = () => {
   return (
-    <div className="max-sm:w-11/12 max-sm:mx-auto flex flex-col items-center justify-center text-center ">
+    <div className="animate__animated animate__fadeInUp animate__delay-0.5s max-sm:w-11/12 max-sm:mx-auto flex flex-col items-center justify-center text-center ">
       <div className="py-10">
         <div className="badge badge-soft badge-accent mb-5 text-[16px] text-sky-500">
           <div className="inline-grid *:[grid-area:1/1]">

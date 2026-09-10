@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     <html
       data-theme="light"
       lang="en"
-      supressHydrationWarning
+      suppresshydrationwarning="true"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col ">
