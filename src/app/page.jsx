@@ -1,4 +1,5 @@
 import Compatabilities from "@/Components/Compatabilities";
+import CTASection from "@/Components/CTASection";
 import HomepageSection from "@/Components/Homepage";
 import MarqueeSection from "@/Components/MarqueeSection";
 import PricingSection from "@/Components/PricingSection";
@@ -17,6 +18,7 @@ export default function Home() {
       <PricingSection />
       <ReviewSection />
       <QuestionSection />
+      <CTASection />
     </div>
   );
 }
