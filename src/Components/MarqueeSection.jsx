@@ -10,35 +10,53 @@ const MarqueeSection = () => {
         <Image
           src="/aws2.jpg"
           alt="AWS"
-          width={100}
-          height={50}
+          width={250}
+          height={80}
           className="rounded-lg"
         ></Image>
       </div>
       <div className="ml-5">
         <Image
-          src="/aws2.jpg"
-          alt="AWS"
-          width={100}
-          height={50}
+          src="/daraz.webp"
+          alt="Daraz"
+          width={250}
+          height={80}
           className="rounded-lg"
         ></Image>
       </div>
       <div className="ml-5">
         <Image
-          src="/aws2.jpg"
-          alt="AWS"
-          width={100}
-          height={50}
+          src="/rokomari.webp"
+          alt="Rokomari"
+          width={250}
+          height={80}
           className="rounded-lg"
         ></Image>
       </div>
       <div className="ml-5">
         <Image
-          src="/aws2.jpg"
-          alt="AWS"
-          width={100}
-          height={50}
+          src="/chaldal.jpg"
+          alt="Chaldal"
+          width={250}
+          height={80}
+          className="rounded-lg"
+        ></Image>
+      </div>
+      <div className="ml-5">
+        <Image
+          src="/brac.webp"
+          alt="brac"
+          width={250}
+          height={80}
+          className="rounded-lg"
+        ></Image>
+      </div>
+      <div className="ml-5">
+        <Image
+          src="/cm.png"
+          alt="cm"
+          width={250}
+          height={80}
           className="rounded-lg"
         ></Image>
       </div>

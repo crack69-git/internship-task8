@@ -1,6 +1,8 @@
 import React from "react";
-import { FaTachometerAlt } from "react-icons/fa";
+import { FaCloudDownloadAlt, FaTachometerAlt } from "react-icons/fa";
 import { IoShieldCheckmarkSharp } from "react-icons/io5";
+import { MdDashboardCustomize } from "react-icons/md";
+import { PiUsersThreeFill } from "react-icons/pi";
 import { RiGeminiFill } from "react-icons/ri";
 import { SiMusicbrainz } from "react-icons/si";
 
@@ -67,46 +69,45 @@ const Compatabilities = () => {
         </div>
         <div className="card card-border bg-base-100 w-full shadow-lg">
           <div className="card-body">
-            <SiMusicbrainz color="blue" size={30} />
-            <h2 className="card-title">Autonomous Agent Mesh</h2>
+            <FaCloudDownloadAlt color="blue" size={30} />
+            <h2 className="card-title">Multi-Cloud Architecture</h2>
             <p>
-              Self-healing, proactive telemetry across multi-cloud clusters with
-              predictive machine learning and automated deduplication.
+              Seamless bridging across AWS S3, Cloudflare R2, Google Cloud
+              Storage, and Azure Blob with zero vendor lock-in.
             </p>
             <div className="card-actions ">
               <p className="text-sm font-semibold text-blue-600">
-                Zero Human Config
+                AWS + GCP + Azure Bridge
               </p>
             </div>
           </div>
         </div>
         <div className="card card-border bg-base-100 w-full shadow-lg">
           <div className="card-body">
-            <IoShieldCheckmarkSharp color="green" size={30} />
-            <h2 className="card-title">End-to-End Encryption</h2>
+            <MdDashboardCustomize color="green" size={30} />
+            <h2 className="card-title">Custom API Pipelines</h2>
             <p>
-              SOC2 Type II & HIPAA compliant with AES-256 GCM protocol and
-              zero-knowledge architecture ensuring total payload privacy.
+              Declarative pipelines with zero-code triggers, GraphQL & OpenAPI
+              3.1 support that integrate seamlessly into your existing CI/CD.
             </p>
             <div className="card-actions ">
               <p className="text-sm font-semibold text-green-600">
-                SOC2 & HIPAA Compliant
+                OpenAPI 3.1 & GraphQL
               </p>
             </div>
           </div>
         </div>
         <div className="card card-border bg-base-100 w-full shadow-lg">
           <div className="card-body">
-            <FaTachometerAlt color="purple" size={30} />
-            <h2 className="card-title">Real-Time Telemetry</h2>
+            <PiUsersThreeFill color="purple" size={30} />
+            <h2 className="card-title">Team Collaboration & RBAC</h2>
             <p>
-              Less than 12ms telemetry latency, millisecond-level packet stream
-              routing, live bottleneck resolution, and global node health
-              diagnostics.
+              Enterprise SSO, SAML 2.0, multi-tenant workspace isolation, and
+              granular audit trail logs to protect mission-critical operations.
             </p>
             <div className="card-actions ">
               <p className="text-sm font-semibold text-purple-600">
-                Less than 12ms Engine Latency
+                Enterprise SSO & SAML
               </p>
             </div>
           </div>
