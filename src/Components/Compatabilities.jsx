@@ -8,7 +8,10 @@ import { SiMusicbrainz } from "react-icons/si";
 
 const Compatabilities = () => {
   return (
-    <div className="my-20 flex flex-col items-center justify-center w-11/12 mx-auto">
+    <div
+      id="features"
+      className="my-20 flex flex-col items-center justify-center w-11/12 mx-auto"
+    >
       <div className="badge badge-soft badge-primary font-bold text-blue-600">
         <RiGeminiFill />
         Core Capabilities

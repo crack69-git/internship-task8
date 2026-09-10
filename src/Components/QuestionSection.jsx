@@ -31,7 +31,10 @@ const QuestionSection = () => {
   ];
 
   return (
-    <div className="my-20 max-sm:w-11/12  w-3/5 mx-auto flex flex-col justify-center items-center">
+    <div
+      id="faq"
+      className="my-20 max-sm:w-11/12  w-3/5 mx-auto flex flex-col justify-center items-center"
+    >
       <div className="badge badge-soft badge-info">
         Frequently Asked Questions
       </div>

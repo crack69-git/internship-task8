@@ -25,6 +25,7 @@ const WhySection = () => {
   return (
     <div
       ref={sectionRef}
+      id="benefits"
       className={`animate__animated ${isVisible ? "animate__zoomIn" : ""} animate__delay-1s w-11/12 mx-auto`}
     >
       <div className="card card-border bg-slate-800 text-white w-full">

@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/Components/NavBar";
 import FooterSection from "@/Components/FooterSection";
+import ScrollToTopOnLoad from "@/Components/ScrollToTopOnLoad";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,10 +25,11 @@ export default function RootLayout({ children }) {
     <html
       data-theme="light"
       lang="en"
-      suppresshydrationwarning="true"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      suppressHydrationWarning
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col ">
+        <ScrollToTopOnLoad />
         <NavBar />
         <main className="flex-grow">{children}</main>
         <FooterSection />

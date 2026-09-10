@@ -4,25 +4,28 @@ const NavBar = () => {
   const links = (
     <>
       <li>
-        <a>Home</a>
+        <a href="#navbar">Home</a>
       </li>
       <li>
-        <a>Features</a>
+        <a href="#features">Features</a>
       </li>
       <li>
-        <a>Benefits</a>
+        <a href="#benefits">Benefits</a>
       </li>
       <li>
-        <a>Pricing</a>
+        <a href="#pricing">Pricing</a>
       </li>
       <li>
-        <a>FAQ</a>
+        <a href="#faq">FAQ</a>
       </li>
     </>
   );
   return (
     <div>
-      <div className="animate__animated animate__fadeInDown animate__delay-0.8s navbar max-sm:flex-col max-sm:justify-center items-center bg-base-100 shadow-sm ">
+      <div
+        id="navbar"
+        className="fixed top-0 z-50 animate__animated animate__fadeInDown animate__delay-0.8s navbar max-sm:flex-col max-sm:justify-center items-center bg-base-100 shadow-sm "
+      >
         <div className="navbar-start max-sm:flex max-sm:justify-center">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

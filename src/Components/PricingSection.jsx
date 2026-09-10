@@ -3,7 +3,10 @@ import PriceToogelSection from "./PriceToogelSection";
 
 const PricingSection = () => {
   return (
-    <div className="w-11/12 mx-auto my-20 flex flex-col items-center justify-center">
+    <div
+      id="pricing"
+      className="w-11/12 mx-auto my-20 flex flex-col items-center justify-center"
+    >
       <div className="badge badge-soft badge-info">
         Simple & Transparent Plans
       </div>
